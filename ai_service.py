@@ -19,9 +19,8 @@ app.add_middleware(
 # =========================
 # CONFIG
 # =========================
-# YOLO_MODEL_PATH = r"runs/detect/train2/weights/best.pt"
-YOLO_MODEL_PATH = r"jambu-detection.v4-last.yolov8\runs\detect\train\weights\best.pt" 
-CNN_MODEL_PATH = "model/final_mobilenetv2_jambu.h5"
+YOLO_MODEL_PATH = "model/yolo_single.pt"
+CNN_MODEL_PATH = "model/cnn_mobilenetv2_jambu.h5"
 
 IMG_SIZE = 224
 CLASS_NAMES = ["A", "B", "C"]
