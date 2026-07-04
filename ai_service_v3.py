@@ -52,10 +52,7 @@ from tensorflow.keras.applications.efficientnet import preprocess_input
 # CONFIG
 # =============================================================================
 YOLO_MODEL_PATH = "model/yolo_single.pt"
-# CNN_MODEL_PATH  = "model/final_efficientnet_v1.h5"
-CNN_MODEL_PATH  = "efficientnet_v1/efficientnet_v4/models/best_efficientnet_v4.h5"
-# CNN_MODEL_PATH  = "model/final_mobilenetv3_jambu.h5"
-# CNN_MODEL_PATH  = "model/final_mobilenetv2_jambu.h5"
+CNN_MODEL_PATH  = "model/best_efficientnet_v4.h5"
 
 IMG_SIZE    = 640
 # IMG_SIZE    = 224          # 300 untuk EfficientNet
